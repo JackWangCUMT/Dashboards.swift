@@ -38,6 +38,7 @@ override func viewDidLoad() {
         self.view.addSubview(dashboard!)
         ......
 }
+
 OR
 ......
 dashboard = Dashboard(frame: CGRectMake(0, 68, 300, 300))
@@ -46,7 +47,7 @@ dashboard!.title = "Left"
 self.view.addSubview(dashboard!)
 ......
 
-and you can change it like this
+<b>and you can change it like this</b>
 
 self.dashboard!.change(50, total: 100, suffix: "GB")
 
