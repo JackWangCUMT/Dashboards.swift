@@ -94,7 +94,7 @@ public class Dashboard: UIView {
     
     
     override public func drawRect(rect: CGRect) {
-        //获取画图上下文
+        //get graphics context
         let context:CGContextRef = UIGraphicsGetCurrentContext();
         CGContextSetAllowsAntialiasing(context, true)
         
