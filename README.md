@@ -27,8 +27,6 @@ copy "Source" floder files to you porject.
 
 ## Usage
 
-### UILable
-
 ```swift
 var dashboard: Dashboard?
 override func viewDidLoad() {
